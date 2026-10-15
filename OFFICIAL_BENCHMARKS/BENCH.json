@@ -1,0 +1,2425 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "TRANSFORMERS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\PHILOSOPHY_SEMANTICS\\TRANSFORMERS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "35924ec379eec682bbdca219886e16eff4df8b09",
+      "url": "https://github.com/huggingface/transformers",
+      "branch": "main",
+      "committed_at": "2026-10-02T07:06:30+03:00"
+    }
+  },
+  "metrics": {
+    "files_total": 6527,
+    "source_files_scanned": 4378,
+    "lines_of_code": 1783659,
+    "languages": {
+      ".py": 4924,
+      ".md": 1422,
+      ".json": 63,
+      ".txt": 37,
+      "(none)": 21,
+      ".yml": 15,
+      ".yaml": 10,
+      ".dockerfile": 7,
+      ".model": 6,
+      ".sh": 6,
+      ".tsv": 4,
+      ".png": 3,
+      ".toml": 2,
+      ".csv": 2,
+      ".cff": 1
+    }
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 53,
+    "unique": 52,
+    "by_ecosystem": {
+      "pypi": 53
+    },
+    "list": [
+      {
+        "ecosystem": "pypi",
+        "name": "v",
+        "version": "<NEXT_VERSION>.dev.0",
+        "source_file": "setup.py",
+        "raw": "v<NEXT_VERSION>.dev.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Pillow",
+        "version": ">=10.0.1,<=15.0",
+        "source_file": "setup.py",
+        "raw": "Pillow>=10.0.1,<=15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "accelerate",
+        "version": ">=1.1.0",
+        "source_file": "setup.py",
+        "raw": "accelerate>=1.1.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "codecarbon",
+        "version": ">=2.8.1",
+        "source_file": "setup.py",
+        "raw": "codecarbon>=2.8.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "datasets",
+        "version": ">=2.15.0",
+        "source_file": "setup.py",
+        "raw": "datasets>=2.15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "deepspeed",
+        "version": ">=0.9.3",
+        "source_file": "setup.py",
+        "raw": "deepspeed>=0.9.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "diffusers",
+        "version": "==0.35.2",
+        "source_file": "setup.py",
+        "raw": "diffusers==0.35.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "dill",
+        "version": "<0.3.5",
+        "source_file": "setup.py",
+        "raw": "dill<0.3.5"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "evaluate",
+        "version": ">=0.4.6",
+        "source_file": "setup.py",
+        "raw": "evaluate>=0.4.6"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "fugashi",
+        "version": ">=1.0",
+        "source_file": "setup.py",
+        "raw": "fugashi>=1.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "GitPython",
+        "version": "<3.1.19",
+        "source_file": "setup.py",
+        "raw": "GitPython<3.1.19"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "huggingface-hub",
+        "version": ">=1.31.0,<3.0",
+        "source_file": "setup.py",
+        "raw": "huggingface-hub>=1.31.0,<3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ipadic",
+        "version": ">=1.0.0,<2.0",
+        "source_file": "setup.py",
+        "raw": "ipadic>=1.0.0,<2.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "jinja2",
+        "version": ">=3.1.0",
+        "source_file": "setup.py",
+        "raw": "jinja2>=3.1.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "kernels",
+        "version": ">=0.17.0,<0.18",
+        "source_file": "setup.py",
+        "raw": "kernels>=0.17.0,<0.18"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "nltk",
+        "version": "<=3.8.1",
+        "source_file": "setup.py",
+        "raw": "nltk<=3.8.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "numpy",
+        "version": ">=1.17",
+        "source_file": "setup.py",
+        "raw": "numpy>=1.17"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "openai",
+        "version": ">=1.98.0",
+        "source_file": "setup.py",
+        "raw": "openai>=1.98.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "optimum-benchmark",
+        "version": ">=0.3.0",
+        "source_file": "setup.py",
+        "raw": "optimum-benchmark>=0.3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pandas",
+        "version": "<2.3.0",
+        "source_file": "setup.py",
+        "raw": "pandas<2.3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "packaging",
+        "version": ">=20.0",
+        "source_file": "setup.py",
+        "raw": "packaging>=20.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "parameterized",
+        "version": ">=0.9",
+        "source_file": "setup.py",
+        "raw": "parameterized>=0.9"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "peft",
+        "version": ">=0.20.0",
+        "source_file": "setup.py",
+        "raw": "peft>=0.20.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pyyaml",
+        "version": ">=5.1",
+        "source_file": "setup.py",
+        "raw": "pyyaml>=5.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pydantic",
+        "version": ">=2",
+        "source_file": "setup.py",
+        "raw": "pydantic>=2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pytest",
+        "version": ">=7.2.0,<9.0.0",
+        "source_file": "setup.py",
+        "raw": "pytest>=7.2.0,<9.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pytest-asyncio",
+        "version": ">=1.2.0",
+        "source_file": "setup.py",
+        "raw": "pytest-asyncio>=1.2.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pytest-rerunfailures",
+        "version": "<16.0",
+        "source_file": "setup.py",
+        "raw": "pytest-rerunfailures<16.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "python",
+        "version": ">=3.10.0",
+        "source_file": "setup.py",
+        "raw": "python>=3.10.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "regex",
+        "version": ">=2025.10.22",
+        "source_file": "setup.py",
+        "raw": "regex>=2025.10.22"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "rhoknp",
+        "version": ">=1.1.0,<1.3.1",
+        "source_file": "setup.py",
+        "raw": "rhoknp>=1.1.0,<1.3.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "rouge-score",
+        "version": "!=0.0.7,!=0.0.8,!=0.1,!=0.1.1",
+        "source_file": "setup.py",
+        "raw": "rouge-score!=0.0.7,!=0.0.8,!=0.1,!=0.1.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ruff",
+        "version": "==0.14.10",
+        "source_file": "setup.py",
+        "raw": "ruff==0.14.10"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "transformers-mlinter",
+        "version": "==0.1.5",
+        "source_file": "setup.py",
+        "raw": "transformers-mlinter==0.1.5"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ty",
+        "version": "==0.0.20",
+        "source_file": "setup.py",
+        "raw": "ty==0.0.20"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sacrebleu",
+        "version": ">=1.4.12,<2.0.0",
+        "source_file": "setup.py",
+        "raw": "sacrebleu>=1.4.12,<2.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "safetensors",
+        "version": ">=0.8.0",
+        "source_file": "setup.py",
+        "raw": "safetensors>=0.8.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sagemaker",
+        "version": ">=2.31.0",
+        "source_file": "setup.py",
+        "raw": "sagemaker>=2.31.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "schedulefree",
+        "version": ">=1.2.6",
+        "source_file": "setup.py",
+        "raw": "schedulefree>=1.2.6"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sentencepiece",
+        "version": ">=0.1.91,!=0.1.92",
+        "source_file": "setup.py",
+        "raw": "sentencepiece>=0.1.91,!=0.1.92"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sudachipy",
+        "version": ">=0.6.6",
+        "source_file": "setup.py",
+        "raw": "sudachipy>=0.6.6"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sudachidict_core",
+        "version": ">=20220729",
+        "source_file": "setup.py",
+        "raw": "sudachidict_core>=20220729"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "timm",
+        "version": ">=1.0.23",
+        "source_file": "setup.py",
+        "raw": "timm>=1.0.23"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "tokenizers",
+        "version": ">=0.23.1,<0.24.0",
+        "source_file": "setup.py",
+        "raw": "tokenizers>=0.23.1,<0.24.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "torch",
+        "version": ">=2.5",
+        "source_file": "setup.py",
+        "raw": "torch>=2.5"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pyctcdecode",
+        "version": ">=0.4.0",
+        "source_file": "setup.py",
+        "raw": "pyctcdecode>=0.4.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "tqdm",
+        "version": ">=4.60",
+        "source_file": "setup.py",
+        "raw": "tqdm>=4.60"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "unidic",
+        "version": ">=1.0.2",
+        "source_file": "setup.py",
+        "raw": "unidic>=1.0.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "unidic_lite",
+        "version": ">=1.0.7",
+        "source_file": "setup.py",
+        "raw": "unidic_lite>=1.0.7"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "urllib3",
+        "version": "<2.0.0",
+        "source_file": "setup.py",
+        "raw": "urllib3<2.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "tokenizers",
+        "version": "==0.9.4",
+        "source_file": "setup.py",
+        "raw": "tokenizers==0.9.4"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "deps",
+        "version": "= {",
+        "source_file": "setup.py",
+        "raw": "deps = {"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "transformers",
+        "version": "=transformers.cli.transformers:main",
+        "source_file": "setup.py",
+        "raw": "transformers=transformers.cli.transformers:main"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 5595,
+    "files_with_findings": 4195,
+    "severity": {
+      "high": 691,
+      "medium": 60,
+      "low": 4844
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 9,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "utils/checkers.py",
+            "line": 298,
+            "cwe": "CWE-327",
+            "snippet": "return hashlib.md5(path.read_bytes()).hexdigest()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_tokenization_mistral_common.py",
+            "line": 66,
+            "cwe": "CWE-327",
+            "snippet": "IMG_BASE_64 = \"\"\"/9j/4QDeRXhpZgAASUkqAAgAAAAGABIBAwABAAAAAQAAABoBBQABAAAAVgAAABsBBQABAAAAXgAAACgBAwABAAAAAgAAABMCAwABAAAAAQAAAGmHBAABAAAAZgAAAAAAAABIAAAAAQAAAEgAAAABAAAABwAAkAcABAA"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/pipelines/test_pipelines_depth_estimation.py",
+            "line": 50,
+            "cwe": "CWE-327",
+            "snippet": "m = insecure_hashlib.md5(image.tobytes())"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/pipelines/test_pipelines_image_segmentation.py",
+            "line": 61,
+            "cwe": "CWE-327",
+            "snippet": "m = insecure_hashlib.md5(image.tobytes())"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/pipelines/test_pipelines_mask_generation.py",
+            "line": 54,
+            "cwe": "CWE-327",
+            "snippet": "m = insecure_hashlib.md5(image.tobytes())"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/superpoint/test_image_processing_superpoint.py",
+            "line": 46,
+            "cwe": "CWE-338",
+            "snippet": "random_number_keypoints = np.random.randint(0, max_number_keypoints)\n            mask[i, :random_number_keypoints] = 1"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/superglue/test_image_processing_superglue.py",
+            "line": 82,
+            "cwe": "CWE-338",
+            "snippet": "random_number_keypoints0 = np.random.randint(10, max_number_keypoints)\n            random_number_keypoints1 = np.random.randint(10, max_number_keypoints)"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/lightglue/test_image_processing_lightglue.py",
+            "line": 55,
+            "cwe": "CWE-338",
+            "snippet": "random_number_keypoints0 = np.random.randint(10, max_number_keypoints)\n            random_number_keypoints1 = np.random.randint(10, max_number_keypoints)"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/efficientloftr/test_image_processing_efficientloftr.py",
+            "line": 84,
+            "cwe": "CWE-338",
+            "snippet": "random_number_keypoints0 = np.random.randint(10, max_number_keypoints)\n            random_number_keypoints1 = np.random.randint(10, max_number_keypoints)"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 687,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "utils/modular_model_detector.py",
+            "line": 257,
+            "cwe": "CWE-95",
+            "snippet": "self.model = AutoModel.from_pretrained(EMBEDDING_MODEL, torch_dtype=\"auto\", device_map=\"auto\").eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/alm_tester.py",
+            "line": 195,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/causal_lm_tester.py",
+            "line": 261,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/multimodal_tester.py",
+            "line": 211,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_backbone_common.py",
+            "line": 114,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_executorch.py",
+            "line": 34,
+            "cwe": "CWE-95",
+            "snippet": "self.model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_modeling_common.py",
+            "line": 280,
+            "cwe": "CWE-95",
+            "snippet": "model_sdpa = model_sdpa.eval().to(torch_device)"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_pipeline_mixin.py",
+            "line": 436,
+            "cwe": "CWE-95",
+            "snippet": "model = model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_tensor_parallel_mixin.py",
+            "line": 209,
+            "cwe": "CWE-95",
+            "snippet": "model_tp.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/test_training_mixin.py",
+            "line": 338,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/vlm_tester.py",
+            "line": 146,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/utils/test_cache_utils.py",
+            "line": 272,
+            "cwe": "CWE-95",
+            "snippet": "model = Gemma4ForCausalLM(config).to(torch_device).eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/utils/test_modeling_utils.py",
+            "line": 2524,
+            "cwe": "CWE-95",
+            "snippet": "model = LlamaModel(config).to(torch_device).eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/trainer/test_trainer.py",
+            "line": 569,
+            "cwe": "CWE-95",
+            "snippet": "trainer.model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/trainer/distributed/test_trainer_distributed_deepspeed.py",
+            "line": 1497,
+            "cwe": "CWE-95",
+            "snippet": "model = SiglipModel(cfg).eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/sagemaker/scripts/pytorch/run_ddp.py",
+            "line": 46,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.run(cmd, shell=True)"
+          },
+          {
+            "severity": "high",
+            "file": "tests/quantization/ggml/test_ggml.py",
+            "line": 1112,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/quantization/gemma_integration/test_gemma.py",
+            "line": 82,
+            "cwe": "CWE-95",
+            "snippet": "cls.model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/pipeline_parallel/test_pipeline_parallel.py",
+            "line": 233,
+            "cwe": "CWE-95",
+            "snippet": "pp_model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/pipelines/test_pipelines_any_to_any.py",
+            "line": 228,
+            "cwe": "CWE-95",
+            "snippet": "model = Qwen2_5OmniForConditionalGeneration.from_pretrained(model_id).eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/pipelines/test_pipelines_common.py",
+            "line": 996,
+            "cwe": "CWE-95",
+            "snippet": "model = BertForSequenceClassification(config).eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/peft_integration/test_peft_integration.py",
+            "line": 1181,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/zoedepth/test_modeling_zoedepth.py",
+            "line": 125,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/zaya/test_modeling_zaya.py",
+            "line": 102,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "tests/models/zamba2/test_modeling_zamba2.py",
+            "line": 179,
+            "cwe": "CWE-95",
+            "snippet": "model.eval()"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 661,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "conftest.py",
+            "line": 200,
+            "cwe": "CWE-",
+            "snippet": "\"ModelTest::test_pipeline_\",  # None of the pipeline tests from PipelineTesterMixin (of which XxxModelTest inherits from) are running on device"
+          },
+          {
+            "severity": "low",
+            "file": "utils/add_pipeline_model_mapping_to_test.py",
+            "line": 50,
+            "cwe": "CWE-",
+            "snippet": "\"\"\"Get mappings defined in `XXXPipelineTests` for the task `task`.\"\"\""
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_auto.py",
+            "line": 299,
+            "cwe": "CWE-",
+            "snippet": "# Dirty hack to sort and apply ruff to the file content, for easier matching"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_bad_commit.py",
+            "line": 196,
+            "cwe": "CWE-",
+            "snippet": "# TODO: A helper method to handle this and other possible error messages in a clean and centralized way."
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_config_attributes.py",
+            "line": 375,
+            "cwe": "CWE-",
+            "snippet": "# check if we can find `config.xxx`, `getattr(config, \"xxx\", ...)` or `getattr(self.config, \"xxx\", ...)`"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_docstrings.py",
+            "line": 113,
+            "cwe": "CWE-",
+            "snippet": "# Re pattern that parses the end of a description of an arg (catches the default in *optional*, defaults to xxx)."
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_dummies.py",
+            "line": 15,
+            "cwe": "CWE-",
+            "snippet": "This script is responsible for making sure the dummies in utils/dummies_xxx.py are up to date with the main init."
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_model_tester.py",
+            "line": 32,
+            "cwe": "CWE-",
+            "snippet": "# TODO: deal this better"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_modular_conversion.py",
+            "line": 177,
+            "cwe": "CWE-",
+            "snippet": "parser = argparse.ArgumentParser(description=\"Compare modular_xxx.py files with modeling_xxx.py files.\")"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_repo.py",
+            "line": 229,
+            "cwe": "CWE-",
+            "snippet": "\"MiniCPMV4_7VisionModel\",  # Building part of bigger (tested) model - FIXME: raushan; adding each VLM backbone here is annoying!"
+          },
+          {
+            "severity": "low",
+            "file": "utils/create_dummy_models.py",
+            "line": 174,
+            "cwe": "CWE-",
+            "snippet": "# TODO: create a separate map `no_proper_tester` for configs where only a sub-config tester exists"
+          },
+          {
+            "severity": "low",
+            "file": "utils/fetch_hub_objects_for_ci.py",
+            "line": 447,
+            "cwe": "CWE-",
+            "snippet": "# This is a hack as `list_local_hf_repo_files` from `mistral_common` has a bug"
+          },
+          {
+            "severity": "low",
+            "file": "utils/get_previous_daily_ci.py",
+            "line": 76,
+            "cwe": "CWE-",
+            "snippet": "# event, not schedule).  Stale-check for this path is TODO (see above)."
+          },
+          {
+            "severity": "low",
+            "file": "utils/get_pr_run_slow_jobs.py",
+            "line": 40,
+            "cwe": "CWE-",
+            "snippet": "# TODO: for files in `quantizers`, the processed item above may not exist. Try using a fuzzy matching"
+          },
+          {
+            "severity": "low",
+            "file": "utils/modular_model_converter.py",
+            "line": 79,
+            "cwe": "CWE-",
+            "snippet": "# `from xxx import y`)"
+          },
+          {
+            "severity": "low",
+            "file": "utils/notification_service.py",
+            "line": 642,
+            "cwe": "CWE-",
+            "snippet": "# TODO: We should NOT assume it's always Nvidia CI, but it's the case at this moment."
+          },
+          {
+            "severity": "low",
+            "file": "utils/patch_helper.py",
+            "line": 20,
+            "cwe": "CWE-",
+            "snippet": "Potential TODO: automatically cherry-picks them."
+          },
+          {
+            "severity": "low",
+            "file": "utils/process_bad_commit_report.py",
+            "line": 79,
+            "cwe": "CWE-",
+            "snippet": "# TODO: extend"
+          },
+          {
+            "severity": "low",
+            "file": "utils/process_test_artifacts.py",
+            "line": 25,
+            "cwe": "CWE-",
+            "snippet": "MAX_PARALLEL_NODES = 8  # TODO create a mapping!"
+          },
+          {
+            "severity": "low",
+            "file": "utils/sort_auto_mappings.py",
+            "line": 49,
+            "cwe": "CWE-",
+            "snippet": "# re pattern that matches XXX_MAPPING_NAMES or SPECIAL_MODEL_TYPE_TO_MODULE_NAMES"
+          },
+          {
+            "severity": "low",
+            "file": "utils/split_doctest_jobs.py",
+            "line": 65,
+            "cwe": "CWE-",
+            "snippet": "# TODO (ydshieh): fix the error, ideally before 2025/09"
+          },
+          {
+            "severity": "low",
+            "file": "utils/tests_fetcher.py",
+            "line": 543,
+            "cwe": "CWE-",
+            "snippet": "# \\s*from\\s+(\\.+\\S+)\\s+import\\s+([^\\n]+) -> Line only contains from .xxx import yyy and we catch .xxx and yyy"
+          },
+          {
+            "severity": "low",
+            "file": "tests/alm_tester.py",
+            "line": 44,
+            "cwe": "CWE-",
+            "snippet": "# TODO: @eustlb, we don't have pipeline testing for audio-text-to-text"
+          },
+          {
+            "severity": "low",
+            "file": "tests/causal_lm_tester.py",
+            "line": 136,
+            "cwe": "CWE-",
+            "snippet": "# Models that set `all_model_classes` in their `XXXModelTest` class must have a new class that doesn't fit"
+          },
+          {
+            "severity": "low",
+            "file": "tests/multimodal_tester.py",
+            "line": 64,
+            "cwe": "CWE-",
+            "snippet": "# Models that set `all_model_classes` in their `XXXModelTest` class must have a new class that doesn't fit"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 46,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "tests/utils/test_hf_argparser.py",
+            "line": 189,
+            "cwe": "CWE-1188",
+            "snippet": "expected.add_argument(\"--baz\", type=string_to_bool, default=True, const=True, nargs=\"?\")"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/sagemaker/scripts/pytorch/run_glue_model_parallelism.py",
+            "line": 89,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/configuration_utils.py",
+            "line": 178,
+            "cwe": "CWE-1188",
+            "snippet": "@dataclass_transform(kw_only_default=True)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/testing_utils.py",
+            "line": 319,
+            "cwe": "CWE-1188",
+            "snippet": "_run_flaky_tests = parse_flag_from_env(\"RUN_FLAKY\", default=True)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/trainer_pt_utils.py",
+            "line": 1502,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/training_args.py",
+            "line": 857,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/videoprism/convert_videoprism_weights_to_hf.py",
+            "line": 575,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/timesfm2_5/convert_timesfm2_5_original_to_hf.py",
+            "line": 332,
+            "cwe": "CWE-1188",
+            "snippet": "\"--safe_serialization\", type=bool, default=True, help=\"Whether or not to save using `safetensors`.\""
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/speech_encoder_decoder/convert_mbart_wav2vec2_seq2seq_original_to_pytorch.py",
+            "line": 337,
+            "cwe": "CWE-1188",
+            "snippet": "parser.add_argument(\"--add_adapter\", default=True, type=bool, help=\"whether to add model adapter layers\")"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/resnet/convert_resnet_to_pytorch.py",
+            "line": 178,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/regnet/convert_regnet_seer_10b_to_pytorch.py",
+            "line": 288,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/regnet/convert_regnet_to_pytorch.py",
+            "line": 437,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/phi/convert_phi_weights_to_hf.py",
+            "line": 192,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/parakeet/convert_nemo_to_hf.py",
+            "line": 561,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/nemotron_asr_streaming/convert_nemotron_asr_streaming_to_hf.py",
+            "line": 507,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/nemotron3_5_asr/convert_nemotron3_5_asr_to_hf.py",
+            "line": 554,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/gemma3/convert_gemma3_weights.py",
+            "line": 271,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/ernie4_5_vl_moe/convert_ernie4_5_vl_moe_to_hf.py",
+            "line": 340,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/dia/convert_dia_to_hf.py",
+            "line": 169,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/dab_detr/convert_dab_detr_original_pytorch_checkpoint_to_pytorch.py",
+            "line": 225,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/blt/convert_blt_weights_to_hf.py",
+            "line": 447,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/integrations/integration_utils.py",
+            "line": 1943,
+            "cwe": "CWE-1188",
+            "snippet": "elif not self._clearml_task.get_parameter(ignore_hparams_config_section, default=True, cast=True):"
+          },
+          {
+            "severity": "medium",
+            "file": "examples/pytorch/translation/run_translation.py",
+            "line": 98,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "examples/pytorch/translation/run_translation_no_trainer.py",
+            "line": 96,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "examples/pytorch/text-classification/run_classification.py",
+            "line": 156,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 19,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 81,
+            "cwe": "CWE-1104",
+            "snippet": "\"diffusers==0.35.2\",  # Needed for VibeVoice TTS integration tests"
+          },
+          {
+            "severity": "low",
+            "file": "tests/test_modeling_common.py",
+            "line": 3936,
+            "cwe": "CWE-1104",
+            "snippet": "\"PaliGemma-like models currently (transformers==4.41.0) requires an attention_mask input\""
+          },
+          {
+            "severity": "low",
+            "file": "tests/utils/test_import_structure.py",
+            "line": 200,
+            "cwe": "CWE-1104",
+            "snippet": "pytest.param(Backend(\"torchvision==0.19.1\"), \"torchvision\", VersionComparison.EQUAL, \"0.19.1\"),"
+          },
+          {
+            "severity": "low",
+            "file": "tests/utils/test_versions_utils.py",
+            "line": 58,
+            "cwe": "CWE-1104",
+            "snippet": "for req in [\"numpy==1.0.0\", \"numpy>=1000.0.0\", f\"numpy<{numpy_ver}\"]:"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/vibevoice/test_modeling_vibevoice.py",
+            "line": 402,
+            "cwe": "CWE-1104",
+            "snippet": "diffusers library is needed (ran with `diffusers==0.35.2`)"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/t5/test_modeling_t5.py",
+            "line": 1018,
+            "cwe": "CWE-1104",
+            "snippet": ">>> import t5  # pip install t5==0.7.1"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/musicgen_melody/test_modeling_musicgen_melody.py",
+            "line": 938,
+            "cwe": "CWE-1104",
+            "snippet": "reason=\"Llava-like models currently (transformers==4.39.1) requires an attention_mask input\""
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/musicgen/test_modeling_musicgen.py",
+            "line": 936,
+            "cwe": "CWE-1104",
+            "snippet": "reason=\"Llava-like models currently (transformers==4.39.1) requires an attention_mask input\""
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/mt5/test_modeling_mt5.py",
+            "line": 850,
+            "cwe": "CWE-1104",
+            "snippet": ">>> import t5  # pip install t5==0.7.1"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/dependency_versions_table.py",
+            "line": 13,
+            "cwe": "CWE-1104",
+            "snippet": "\"diffusers\": \"diffusers==0.35.2\","
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/utils/versions.py",
+            "line": 55,
+            "cwe": "CWE-1104",
+            "snippet": "requirement (`str`): pip style definition, e.g.,  \"tokenizers==0.9.4\", \"tqdm>=4.60\", \"numpy\""
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/llava_next/convert_llava_next_weights_to_hf.py",
+            "line": 23,
+            "cwe": "CWE-1104",
+            "snippet": "Note: logits are tested with torch==2.1.2."
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/doge/modeling_doge.py",
+            "line": 234,
+            "cwe": "CWE-1104",
+            "snippet": "# Last time checked on PyTorch == 2.5.1: Flex Attention always computes the lse regardless."
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/doge/modular_doge.py",
+            "line": 183,
+            "cwe": "CWE-1104",
+            "snippet": "# Last time checked on PyTorch == 2.5.1: Flex Attention always computes the lse regardless."
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/diffusion_gemma/convert_diffusion_gemma_weights.py",
+            "line": 38,
+            "cwe": "CWE-1104",
+            "snippet": "# version used: orbax-checkpoint==0.11.33 (0.11.34-0.11.36 fail)"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/colqwen2/convert_colqwen2_weights_to_hf.py",
+            "line": 22,
+            "cwe": "CWE-1104",
+            "snippet": "NOTE: This script was originally run using `torch==2.5.1` and with:"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/colpali/convert_colpali_weights_to_hf.py",
+            "line": 19,
+            "cwe": "CWE-1104",
+            "snippet": "NOTE: This script was originally run using `torch==2.5.1` and with:"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/bertweet/tokenization_bertweet.py",
+            "line": 125,
+            "cwe": "CWE-1104",
+            "snippet": "\" install emoji==0.6.0\""
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/integrations/flex_attention.py",
+            "line": 329,
+            "cwe": "CWE-1104",
+            "snippet": "# Last time checked on PyTorch == 2.5.1: Flex Attention always computes the lse regardless."
+          }
+        ]
+      },
+      "A07-AuthFailures": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "src/transformers/testing_utils.py",
+            "line": 221,
+            "cwe": "CWE-798",
+            "snippet": "TOKEN = \"hf_94wBhPGp6KrrTH3KDchhKpRxZwd6dmHWLL\""
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 4164,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "conftest.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/add_dates.py",
+            "line": 38,
+            "cwe": "CWE-319",
+            "snippet": "http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/add_pipeline_model_mapping_to_test.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/aggregate_failure_reports.py",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/checkers.py",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_auto.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_bad_commit.py",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_config_attributes.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_config_docstrings.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_copies.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_docstrings.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_doctest_list.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_doc_toc.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_dummies.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_import_complexity.py",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_inits.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_modeling_rules_doc.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_modeling_structure.py",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_model_tester.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_noisy_comments.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_repo.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/check_reviewers.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/collated_reports.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "utils/compare_test_runs.py",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 8,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "utils/get_ci_error_statistics.py",
+            "line": 109,
+            "cwe": "CWE-918",
+            "snippet": "with urllib.request.urlopen(download_url, timeout=60) as response:"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/models/qwen3_omni_moe/test_modeling_qwen3_omni_moe.py",
+            "line": 901,
+            "cwe": "CWE-918",
+            "snippet": "audio, _ = librosa.load(BytesIO(urlopen(audio_url).read()), sr=self.processor.feature_extractor.sampling_rate)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/models/qwen2_audio/test_modeling_qwen2_audio.py",
+            "line": 111,
+            "cwe": "CWE-918",
+            "snippet": "raw_audio, _ = librosa.load(BytesIO(urlopen(url).read()), sr=self.processor.feature_extractor.sampling_rate)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/models/qwen2_5_omni/test_modeling_qwen2_5_omni.py",
+            "line": 764,
+            "cwe": "CWE-918",
+            "snippet": "audio, _ = librosa.load(BytesIO(urlopen(audio_url).read()), sr=self.processor.feature_extractor.sampling_rate)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/whisper/convert_openai_to_hf.py",
+            "line": 164,
+            "cwe": "CWE-918",
+            "snippet": "with urllib.request.urlopen(url) as source, open(download_target, \"wb\") as output:"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/qwen2_audio/modeling_qwen2_audio.py",
+            "line": 818,
+            "cwe": "CWE-918",
+            "snippet": ">>> audio, _ = librosa.load(BytesIO(urlopen(url).read()), sr=self.processor.feature_extractor.sampling_rate)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+            "line": 2297,
+            "cwe": "CWE-918",
+            "snippet": ">>> audio, _ = librosa.load(BytesIO(urlopen(url).read()), sr=self.processor.feature_extractor.sampling_rate)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/qwen2_5_omni/modular_qwen2_5_omni.py",
+            "line": 2171,
+            "cwe": "CWE-918",
+            "snippet": ">>> audio, _ = librosa.load(BytesIO(urlopen(url).read()), sr=self.processor.feature_extractor.sampling_rate)"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1827,
+    "files_with_findings": 1792,
+    "severity": {
+      "high": 7,
+      "medium": 1783,
+      "low": 37
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 17,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "tests/test_processing_common.py",
+            "line": 1580,
+            "cwe": "CWE-1427",
+            "snippet": "messages, add_system_prompt=True, tokenize=False, chat_template=dummy_template"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/vibevoice/test_processing_vibevoice.py",
+            "line": 41,
+            "cwe": "CWE-1427",
+            "snippet": "\"chat_template\": \"\"\"{%- set system_prompt = system_prompt | default(\" Transform the text provided by various speakers into speech output, utilizing the distinct voice of each respe"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/cwm/test_modeling_cwm.py",
+            "line": 198,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt = \"You are a helpful AI assistant. You always reason before responding, using the following format:\\n\\n<think>\\nyour internal reasoning\\n</think>\\nyour external respo"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/integrations/mistral/test_tokenizer.py",
+            "line": 1091,
+            "cwe": "CWE-1336",
+            "snippet": "class TestResolveChatTemplate(unittest.TestCase):"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/processing_utils.py",
+            "line": 561,
+            "cwe": "CWE-1336",
+            "snippet": "class AllKwargsForChatTemplate(TypedDict, total=False):"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/utils/chat_parsing/response_templates.py",
+            "line": 232,
+            "cwe": "CWE-1336",
+            "snippet": "return ResponseTemplate("
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/vibevoice_asr/convert_vibevoice_asr_to_hf.py",
+            "line": 224,
+            "cwe": "CWE-1427",
+            "snippet": "chat_template = \"\"\"{%- set system_prompt = system_prompt | default(\"You are a helpful assistant that transcribes audio input into text output in JSON format.\") -%}"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/vibevoice/convert_vibevoice_to_hf.py",
+            "line": 94,
+            "cwe": "CWE-1427",
+            "snippet": "CHAT_TEMPLATE = \"\"\"{%- set system_prompt = system_prompt | default(\" Transform the text provided by various speakers into speech output, utilizing the distinct voice of each respec"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/musicflamingo/convert_audioflamingonext_to_hf.py",
+            "line": 55,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt = ("
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/musicflamingo/convert_musicflamingo_to_hf.py",
+            "line": 57,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt = ("
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/llama/tokenization_llama.py",
+            "line": 30,
+            "cwe": "CWE-1427",
+            "snippet": "DEFAULT_SYSTEM_PROMPT = \"\"\"You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your \\"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/janus/convert_janus_weights_to_hf.py",
+            "line": 328,
+            "cwe": "CWE-1427",
+            "snippet": "use_default_system_prompt=True,"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/janus/processing_janus.py",
+            "line": 27,
+            "cwe": "CWE-1427",
+            "snippet": "DEFAULT_SYSTEM_PROMPT = ("
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/cohere/tokenization_cohere.py",
+            "line": 36,
+            "cwe": "CWE-1427",
+            "snippet": "DEFAULT_SYSTEM_PROMPT = \"You are Command-R, a brilliant, sophisticated, AI-assistant trained to assist human users by providing thorough responses. You are trained by Cohere.\""
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/code_llama/tokenization_code_llama.py",
+            "line": 32,
+            "cwe": "CWE-1427",
+            "snippet": "DEFAULT_SYSTEM_PROMPT = \"\"\"You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your \\"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/cli/chat.py",
+            "line": 337,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt: Annotated[str | None, typer.Option(help=\"System prompt.\")] = None,"
+          },
+          {
+            "severity": "low",
+            "file": "benchmark_v2/benchmark_scripts/continuous_batching_overall.py",
+            "line": 101,
+            "cwe": "CWE-1427",
+            "snippet": "pm = PromptManager(use_chat_template=use_chat_template, tokenizer=tokenizer, system_prompt=None)"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 7,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "utils/fetch_hub_objects_for_ci.py",
+            "line": 240,
+            "cwe": "CWE-798",
+            "snippet": "automatically via the HF_TOKEN environment variable."
+          },
+          {
+            "severity": "high",
+            "file": "src/transformers/models/vjepa2/convert_vjepa2_to_hf.py",
+            "line": 48,
+            "cwe": "CWE-798",
+            "snippet": "TOKEN = os.environ.get(\"HF_TOKEN\", None)"
+          },
+          {
+            "severity": "high",
+            "file": "src/transformers/models/regnet/convert_regnet_seer_10b_to_pytorch.py",
+            "line": 236,
+            "cwe": "CWE-798",
+            "snippet": "logger.info(f\"Token is {os.environ['HF_TOKEN']}\")"
+          },
+          {
+            "severity": "high",
+            "file": "src/transformers/models/musicflamingo/convert_audioflamingonext_to_hf.py",
+            "line": 255,
+            "cwe": "CWE-798",
+            "snippet": "3) Convert and push directly to the Hub (requires `hf auth login` or `HF_TOKEN`):"
+          },
+          {
+            "severity": "high",
+            "file": "src/transformers/models/musicflamingo/convert_musicflamingo_to_hf.py",
+            "line": 262,
+            "cwe": "CWE-798",
+            "snippet": "3) Convert and push directly to the Hub (requires `hf auth login` or `HF_TOKEN`):"
+          },
+          {
+            "severity": "high",
+            "file": "src/transformers/models/eomt_dinov3/convert_eomt_dinov3_to_hf.py",
+            "line": 19,
+            "cwe": "CWE-798",
+            "snippet": "HF_TOKEN=your_token_here \\"
+          },
+          {
+            "severity": "high",
+            "file": "src/transformers/models/audioflamingo3/convert_audioflamingo3_to_hf.py",
+            "line": 237,
+            "cwe": "CWE-798",
+            "snippet": "3) Convert and push directly to the Hub (requires `hf auth login` or `HF_TOKEN`):"
+          }
+        ]
+      },
+      "LLM03-SupplyChain": {
+        "count": 1777,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "utils/check_auto.py",
+            "line": 157,
+            "cwe": "CWE-494",
+            "snippet": "# The config mapping has to be one-to-one for correct `AutoConfig.from_pretrained()` because `LazyMapping`"
+          },
+          {
+            "severity": "medium",
+            "file": "utils/create_dummy_models.py",
+            "line": 407,
+            "cwe": "CWE-494",
+            "snippet": "print(f\"[build_processor] trying {processor_class.__name__}.from_pretrained({checkpoint!r})\", flush=True)"
+          },
+          {
+            "severity": "medium",
+            "file": "utils/fetch_hub_objects_for_ci.py",
+            "line": 258,
+            "cwe": "CWE-494",
+            "snippet": "downloaded = hf_hub_download(**hf_parts, local_dir=\".\")"
+          },
+          {
+            "severity": "medium",
+            "file": "utils/modular_model_detector.py",
+            "line": 256,
+            "cwe": "CWE-494",
+            "snippet": "self.tokenizer = AutoTokenizer.from_pretrained(EMBEDDING_MODEL)"
+          },
+          {
+            "severity": "medium",
+            "file": "utils/update_metadata.py",
+            "line": 258,
+            "cwe": "CWE-494",
+            "snippet": "resolved_tags_file = hf_hub_download("
+          },
+          {
+            "severity": "medium",
+            "file": "utils/update_tiny_models.py",
+            "line": 107,
+            "cwe": "CWE-494",
+            "snippet": "tokenizer_fast = AutoTokenizer.from_pretrained(repo_id)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/causal_lm_tester.py",
+            "line": 426,
+            "cwe": "CWE-494",
+            "snippet": "model_fa = model_class.from_pretrained("
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_backbone_common.py",
+            "line": 81,
+            "cwe": "CWE-494",
+            "snippet": "config_second = self.config_class.from_pretrained(tmpdirname)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_configuration_common.py",
+            "line": 76,
+            "cwe": "CWE-494",
+            "snippet": "config_second = self.config_class.from_pretrained(tmpdirname)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_executorch.py",
+            "line": 33,
+            "cwe": "CWE-494",
+            "snippet": "self.model = AutoModelForCausalLM.from_pretrained(\"hf-internal-testing/tiny-random-LlamaForCausalLM\")"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_feature_extraction_common.py",
+            "line": 48,
+            "cwe": "CWE-494",
+            "snippet": "feat_extract_second = self.feature_extraction_class.from_pretrained(tmpdirname)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_fsdp_mixin.py",
+            "line": 260,
+            "cwe": "CWE-494",
+            "snippet": "resumed_model = AutoModelForCausalLM.from_pretrained("
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_image_processing_common.py",
+            "line": 519,
+            "cwe": "CWE-494",
+            "snippet": "image_processor_second = image_processing_class.from_pretrained(tmpdirname)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_memory_cleanup_mixin.py",
+            "line": 94,
+            "cwe": "CWE-494",
+            "snippet": "self.model = AutoModelForCausalLM.from_pretrained(...).to(torch_device)  # dropped in tearDown"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_modeling_common.py",
+            "line": 277,
+            "cwe": "CWE-494",
+            "snippet": "model_sdpa = model_class.from_pretrained(**model_from_pretrained_kwargs, attn_implementation=\"sdpa\")"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_pipeline_mixin.py",
+            "line": 375,
+            "cwe": "CWE-494",
+            "snippet": "model = model_architecture.from_pretrained(repo_id, revision=commit, use_safetensors=True)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_processing_common.py",
+            "line": 184,
+            "cwe": "CWE-494",
+            "snippet": "tiny_processor = cls._setup_from_pretrained(cls.tiny_model_id)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_sentencepiece_backend_mixin.py",
+            "line": 43,
+            "cwe": "CWE-494",
+            "snippet": "return AutoTokenizer.from_pretrained(cls.from_pretrained_id, **merged_kwargs)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_tensor_parallel_mixin.py",
+            "line": 154,
+            "cwe": "CWE-494",
+            "snippet": "model_tp = model_class.from_pretrained("
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_tokenization_common.py",
+            "line": 367,
+            "cwe": "CWE-494",
+            "snippet": "tokenizer = AutoTokenizer.from_pretrained("
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_tokenization_mistral_common.py",
+            "line": 87,
+            "cwe": "CWE-494",
+            "snippet": "cls.tokenizer = MistralCommonBackend.from_pretrained("
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_tokenizers_backend_mixin.py",
+            "line": 58,
+            "cwe": "CWE-494",
+            "snippet": "tokenizer = AutoTokenizer.from_pretrained("
+          },
+          {
+            "severity": "medium",
+            "file": "tests/test_video_processing_common.py",
+            "line": 146,
+            "cwe": "CWE-494",
+            "snippet": "video_processor_second = video_processing_class.from_pretrained(tmpdirname)"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/utils/test_auto_docstring.py",
+            "line": 275,
+            "cwe": "CWE-494",
+            "snippet": ">>> model = DummyForTestModel.from_pretrained(\"dummy-model\")"
+          },
+          {
+            "severity": "medium",
+            "file": "tests/utils/test_cache_utils.py",
+            "line": 370,
+            "cwe": "CWE-494",
+            "snippet": "cls.tokenizer = AutoTokenizer.from_pretrained(\"HuggingFaceTB/SmolLM2-135M-Instruct\", padding_side=\"left\")"
+          }
+        ]
+      },
+      "LLM04-DataPoisoning": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/zaya/convert_zaya_weights_to_hf.py",
+            "line": 171,
+            "cwe": "CWE-20",
+            "snippet": "config_dict = json.loads((input_dir / \"config.json\").read_text())"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/openai_privacy_filter/convert_openai_privacy_filter_weights_to_hf.py",
+            "line": 245,
+            "cwe": "CWE-20",
+            "snippet": "original_config = json.loads((input_path / \"config.json\").read_text())"
+          },
+          {
+            "severity": "medium",
+            "file": "src/transformers/models/gpt_oss/convert_gpt_oss_weights_to_hf.py",
+            "line": 154,
+            "cwe": "CWE-20",
+            "snippet": "original_config = json.loads((Path(input_base_path) / \"config.json\").read_text())"
+          }
+        ]
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 20,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 84,
+            "cwe": "CWE-",
+            "snippet": "\"faiss-cpu\","
+          },
+          {
+            "severity": "low",
+            "file": "tests/utils/test_audio_utils.py",
+            "line": 31,
+            "cwe": "CWE-",
+            "snippet": "chroma_filter_bank,"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/rag/test_modeling_rag.py",
+            "line": 38,
+            "cwe": "CWE-",
+            "snippet": "from transformers.utils import is_datasets_available, is_faiss_available, is_torch_available"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/rag/test_retrieval_rag.py",
+            "line": 24,
+            "cwe": "CWE-",
+            "snippet": "from transformers import is_faiss_available"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/rag/test_tokenization_rag.py",
+            "line": 26,
+            "cwe": "CWE-",
+            "snippet": "from transformers.testing_utils import require_faiss, require_tokenizers, require_torch, slow"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/musicgen_melody/test_feature_extraction_musicgen_melody.py",
+            "line": 74,
+            "cwe": "CWE-",
+            "snippet": "self.num_chroma = feature_size"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/musicgen_melody/test_modeling_musicgen_melody.py",
+            "line": 510,
+            "cwe": "CWE-",
+            "snippet": "chroma_length=24,"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/audio_utils.py",
+            "line": 661,
+            "cwe": "CWE-",
+            "snippet": "def chroma_filter_bank("
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/dependency_versions_table.py",
+            "line": 16,
+            "cwe": "CWE-",
+            "snippet": "\"faiss-cpu\": \"faiss-cpu\","
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/file_utils.py",
+            "line": 65,
+            "cwe": "CWE-",
+            "snippet": "is_faiss_available,"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/testing_utils.py",
+            "line": 96,
+            "cwe": "CWE-",
+            "snippet": "is_faiss_available,"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/__init__.py",
+            "line": 225,
+            "cwe": "CWE-",
+            "snippet": "\"is_faiss_available\","
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/utils/import_utils.py",
+            "line": 1345,
+            "cwe": "CWE-",
+            "snippet": "def is_faiss_available() -> bool:"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/utils/__init__.py",
+            "line": 139,
+            "cwe": "CWE-",
+            "snippet": "is_faiss_available,"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/rag/configuration_rag.py",
+            "line": 41,
+            "cwe": "CWE-",
+            "snippet": "Retrieval batch size, defined as the number of queries issues concurrently to the faiss index encapsulated"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/rag/retrieval_rag.py",
+            "line": 25,
+            "cwe": "CWE-",
+            "snippet": "from ...utils import cached_file, is_datasets_available, is_faiss_available, logging, requires_backends, strtobool"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/musicgen_melody/configuration_musicgen_melody.py",
+            "line": 75,
+            "cwe": "CWE-",
+            "snippet": "num_chroma (`int`, *optional*, defaults to 12):"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/musicgen_melody/convert_musicgen_melody_transformers.py",
+            "line": 43,
+            "cwe": "CWE-",
+            "snippet": "EXPECTED_ADDITIONAL_KEYS = [\"condition_provider.conditioners.self_wav.chroma.spec.window\"]"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/musicgen_melody/feature_extraction_musicgen_melody.py",
+            "line": 23,
+            "cwe": "CWE-",
+            "snippet": "from ...audio_utils import chroma_filter_bank"
+          },
+          {
+            "severity": "low",
+            "file": "src/transformers/models/musicgen_melody/modeling_musicgen_melody.py",
+            "line": 1156,
+            "cwe": "CWE-",
+            "snippet": "# audio encoder outputs after chroma extraction might need to be projected to different dimension for decoder"
+          }
+        ]
+      },
+      "LLM09-Misinformation": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "tests/utils/test_import_structure.py",
+            "line": 193,
+            "cwe": "CWE-",
+            "snippet": "self.assertEqual(ground_truth_spread_import_structure, newly_spread_import_structure)"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/xlstm/test_modeling_xlstm.py",
+            "line": 295,
+            "cwe": "CWE-",
+            "snippet": "self.assertEqual(output_sentence, ground_truth_sentence)"
+          },
+          {
+            "severity": "low",
+            "file": "tests/models/mamba2/test_modeling_mamba2.py",
+            "line": 465,
+            "cwe": "CWE-",
+            "snippet": "self.assertEqual(output_sentence, ground_truth_sentence)"
+          }
+        ]
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:2d276336-09ae-5a82-b4a7-a286f4403b3e",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T06:24:43Z",
+      "component": {
+        "type": "application",
+        "name": "TRANSFORMERS",
+        "version": "35924ec379ee",
+        "bom-ref": "pkg:generic/anticloud/TRANSFORMERS@35924ec379ee",
+        "purl": "pkg:generic/anticloud/TRANSFORMERS@35924ec379ee",
+        "licenses": [
+          {
+            "license": {
+              "id": "Apache-2.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "35924ec379eec682bbdca219886e16eff4df8b09"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/huggingface/transformers"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "v",
+        "version": "<NEXT_VERSION>.dev.0",
+        "purl": "pkg:pypi/v@NEXT_VERSION>.dev.0",
+        "bom-ref": "pypi/v@<NEXT_VERSION>.dev.0"
+      },
+      {
+        "type": "library",
+        "name": "Pillow",
+        "version": ">=10.0.1,<=15.0",
+        "purl": "pkg:pypi/pillow@10.0.1,<=15.0",
+        "bom-ref": "pypi/Pillow@>=10.0.1,<=15.0"
+      },
+      {
+        "type": "library",
+        "name": "accelerate",
+        "version": ">=1.1.0",
+        "purl": "pkg:pypi/accelerate@1.1.0",
+        "bom-ref": "pypi/accelerate@>=1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "codecarbon",
+        "version": ">=2.8.1",
+        "purl": "pkg:pypi/codecarbon@2.8.1",
+        "bom-ref": "pypi/codecarbon@>=2.8.1"
+      },
+      {
+        "type": "library",
+        "name": "datasets",
+        "version": ">=2.15.0",
+        "purl": "pkg:pypi/datasets@2.15.0",
+        "bom-ref": "pypi/datasets@>=2.15.0"
+      },
+      {
+        "type": "library",
+        "name": "deepspeed",
+        "version": ">=0.9.3",
+        "purl": "pkg:pypi/deepspeed@0.9.3",
+        "bom-ref": "pypi/deepspeed@>=0.9.3"
+      },
+      {
+        "type": "library",
+        "name": "diffusers",
+        "version": "==0.35.2",
+        "purl": "pkg:pypi/diffusers@0.35.2",
+        "bom-ref": "pypi/diffusers@==0.35.2"
+      },
+      {
+        "type": "library",
+        "name": "dill",
+        "version": "<0.3.5",
+        "purl": "pkg:pypi/dill@0.3.5",
+        "bom-ref": "pypi/dill@<0.3.5"
+      },
+      {
+        "type": "library",
+        "name": "evaluate",
+        "version": ">=0.4.6",
+        "purl": "pkg:pypi/evaluate@0.4.6",
+        "bom-ref": "pypi/evaluate@>=0.4.6"
+      },
+      {
+        "type": "library",
+        "name": "fugashi",
+        "version": ">=1.0",
+        "purl": "pkg:pypi/fugashi@1.0",
+        "bom-ref": "pypi/fugashi@>=1.0"
+      },
+      {
+        "type": "library",
+        "name": "GitPython",
+        "version": "<3.1.19",
+        "purl": "pkg:pypi/gitpython@3.1.19",
+        "bom-ref": "pypi/GitPython@<3.1.19"
+      },
+      {
+        "type": "library",
+        "name": "huggingface-hub",
+        "version": ">=1.31.0,<3.0",
+        "purl": "pkg:pypi/huggingface-hub@1.31.0,<3.0",
+        "bom-ref": "pypi/huggingface-hub@>=1.31.0,<3.0"
+      },
+      {
+        "type": "library",
+        "name": "ipadic",
+        "version": ">=1.0.0,<2.0",
+        "purl": "pkg:pypi/ipadic@1.0.0,<2.0",
+        "bom-ref": "pypi/ipadic@>=1.0.0,<2.0"
+      },
+      {
+        "type": "library",
+        "name": "jinja2",
+        "version": ">=3.1.0",
+        "purl": "pkg:pypi/jinja2@3.1.0",
+        "bom-ref": "pypi/jinja2@>=3.1.0"
+      },
+      {
+        "type": "library",
+        "name": "kernels",
+        "version": ">=0.17.0,<0.18",
+        "purl": "pkg:pypi/kernels@0.17.0,<0.18",
+        "bom-ref": "pypi/kernels@>=0.17.0,<0.18"
+      },
+      {
+        "type": "library",
+        "name": "nltk",
+        "version": "<=3.8.1",
+        "purl": "pkg:pypi/nltk@3.8.1",
+        "bom-ref": "pypi/nltk@<=3.8.1"
+      },
+      {
+        "type": "library",
+        "name": "numpy",
+        "version": ">=1.17",
+        "purl": "pkg:pypi/numpy@1.17",
+        "bom-ref": "pypi/numpy@>=1.17"
+      },
+      {
+        "type": "library",
+        "name": "openai",
+        "version": ">=1.98.0",
+        "purl": "pkg:pypi/openai@1.98.0",
+        "bom-ref": "pypi/openai@>=1.98.0"
+      },
+      {
+        "type": "library",
+        "name": "optimum-benchmark",
+        "version": ">=0.3.0",
+        "purl": "pkg:pypi/optimum-benchmark@0.3.0",
+        "bom-ref": "pypi/optimum-benchmark@>=0.3.0"
+      },
+      {
+        "type": "library",
+        "name": "pandas",
+        "version": "<2.3.0",
+        "purl": "pkg:pypi/pandas@2.3.0",
+        "bom-ref": "pypi/pandas@<2.3.0"
+      },
+      {
+        "type": "library",
+        "name": "packaging",
+        "version": ">=20.0",
+        "purl": "pkg:pypi/packaging@20.0",
+        "bom-ref": "pypi/packaging@>=20.0"
+      },
+      {
+        "type": "library",
+        "name": "parameterized",
+        "version": ">=0.9",
+        "purl": "pkg:pypi/parameterized@0.9",
+        "bom-ref": "pypi/parameterized@>=0.9"
+      },
+      {
+        "type": "library",
+        "name": "peft",
+        "version": ">=0.20.0",
+        "purl": "pkg:pypi/peft@0.20.0",
+        "bom-ref": "pypi/peft@>=0.20.0"
+      },
+      {
+        "type": "library",
+        "name": "pyyaml",
+        "version": ">=5.1",
+        "purl": "pkg:pypi/pyyaml@5.1",
+        "bom-ref": "pypi/pyyaml@>=5.1"
+      },
+      {
+        "type": "library",
+        "name": "pydantic",
+        "version": ">=2",
+        "purl": "pkg:pypi/pydantic@2",
+        "bom-ref": "pypi/pydantic@>=2"
+      },
+      {
+        "type": "library",
+        "name": "pytest",
+        "version": ">=7.2.0,<9.0.0",
+        "purl": "pkg:pypi/pytest@7.2.0,<9.0.0",
+        "bom-ref": "pypi/pytest@>=7.2.0,<9.0.0"
+      },
+      {
+        "type": "library",
+        "name": "pytest-asyncio",
+        "version": ">=1.2.0",
+        "purl": "pkg:pypi/pytest-asyncio@1.2.0",
+        "bom-ref": "pypi/pytest-asyncio@>=1.2.0"
+      },
+      {
+        "type": "library",
+        "name": "pytest-rerunfailures",
+        "version": "<16.0",
+        "purl": "pkg:pypi/pytest-rerunfailures@16.0",
+        "bom-ref": "pypi/pytest-rerunfailures@<16.0"
+      },
+      {
+        "type": "library",
+        "name": "python",
+        "version": ">=3.10.0",
+        "purl": "pkg:pypi/python@3.10.0",
+        "bom-ref": "pypi/python@>=3.10.0"
+      },
+      {
+        "type": "library",
+        "name": "regex",
+        "version": ">=2025.10.22",
+        "purl": "pkg:pypi/regex@2025.10.22",
+        "bom-ref": "pypi/regex@>=2025.10.22"
+      },
+      {
+        "type": "library",
+        "name": "rhoknp",
+        "version": ">=1.1.0,<1.3.1",
+        "purl": "pkg:pypi/rhoknp@1.1.0,<1.3.1",
+        "bom-ref": "pypi/rhoknp@>=1.1.0,<1.3.1"
+      },
+      {
+        "type": "library",
+        "name": "rouge-score",
+        "version": "!=0.0.7,!=0.0.8,!=0.1,!=0.1.1",
+        "purl": "pkg:pypi/rouge-score@0.0.7,!=0.0.8,!=0.1,!=0.1.1",
+        "bom-ref": "pypi/rouge-score@!=0.0.7,!=0.0.8,!=0.1,!=0.1.1"
+      },
+      {
+        "type": "library",
+        "name": "ruff",
+        "version": "==0.14.10",
+        "purl": "pkg:pypi/ruff@0.14.10",
+        "bom-ref": "pypi/ruff@==0.14.10"
+      },
+      {
+        "type": "library",
+        "name": "transformers-mlinter",
+        "version": "==0.1.5",
+        "purl": "pkg:pypi/transformers-mlinter@0.1.5",
+        "bom-ref": "pypi/transformers-mlinter@==0.1.5"
+      },
+      {
+        "type": "library",
+        "name": "ty",
+        "version": "==0.0.20",
+        "purl": "pkg:pypi/ty@0.0.20",
+        "bom-ref": "pypi/ty@==0.0.20"
+      },
+      {
+        "type": "library",
+        "name": "sacrebleu",
+        "version": ">=1.4.12,<2.0.0",
+        "purl": "pkg:pypi/sacrebleu@1.4.12,<2.0.0",
+        "bom-ref": "pypi/sacrebleu@>=1.4.12,<2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "safetensors",
+        "version": ">=0.8.0",
+        "purl": "pkg:pypi/safetensors@0.8.0",
+        "bom-ref": "pypi/safetensors@>=0.8.0"
+      },
+      {
+        "type": "library",
+        "name": "sagemaker",
+        "version": ">=2.31.0",
+        "purl": "pkg:pypi/sagemaker@2.31.0",
+        "bom-ref": "pypi/sagemaker@>=2.31.0"
+      },
+      {
+        "type": "library",
+        "name": "schedulefree",
+        "version": ">=1.2.6",
+        "purl": "pkg:pypi/schedulefree@1.2.6",
+        "bom-ref": "pypi/schedulefree@>=1.2.6"
+      },
+      {
+        "type": "library",
+        "name": "sentencepiece",
+        "version": ">=0.1.91,!=0.1.92",
+        "purl": "pkg:pypi/sentencepiece@0.1.91,!=0.1.92",
+        "bom-ref": "pypi/sentencepiece@>=0.1.91,!=0.1.92"
+      },
+      {
+        "type": "library",
+        "name": "sudachipy",
+        "version": ">=0.6.6",
+        "purl": "pkg:pypi/sudachipy@0.6.6",
+        "bom-ref": "pypi/sudachipy@>=0.6.6"
+      },
+      {
+        "type": "library",
+        "name": "sudachidict_core",
+        "version": ">=20220729",
+        "purl": "pkg:pypi/sudachidict-core@20220729",
+        "bom-ref": "pypi/sudachidict_core@>=20220729"
+      },
+      {
+        "type": "library",
+        "name": "timm",
+        "version": ">=1.0.23",
+        "purl": "pkg:pypi/timm@1.0.23",
+        "bom-ref": "pypi/timm@>=1.0.23"
+      },
+      {
+        "type": "library",
+        "name": "tokenizers",
+        "version": ">=0.23.1,<0.24.0",
+        "purl": "pkg:pypi/tokenizers@0.23.1,<0.24.0",
+        "bom-ref": "pypi/tokenizers@>=0.23.1,<0.24.0"
+      },
+      {
+        "type": "library",
+        "name": "torch",
+        "version": ">=2.5",
+        "purl": "pkg:pypi/torch@2.5",
+        "bom-ref": "pypi/torch@>=2.5"
+      },
+      {
+        "type": "library",
+        "name": "pyctcdecode",
+        "version": ">=0.4.0",
+        "purl": "pkg:pypi/pyctcdecode@0.4.0",
+        "bom-ref": "pypi/pyctcdecode@>=0.4.0"
+      },
+      {
+        "type": "library",
+        "name": "tqdm",
+        "version": ">=4.60",
+        "purl": "pkg:pypi/tqdm@4.60",
+        "bom-ref": "pypi/tqdm@>=4.60"
+      },
+      {
+        "type": "library",
+        "name": "unidic",
+        "version": ">=1.0.2",
+        "purl": "pkg:pypi/unidic@1.0.2",
+        "bom-ref": "pypi/unidic@>=1.0.2"
+      },
+      {
+        "type": "library",
+        "name": "unidic_lite",
+        "version": ">=1.0.7",
+        "purl": "pkg:pypi/unidic-lite@1.0.7",
+        "bom-ref": "pypi/unidic_lite@>=1.0.7"
+      },
+      {
+        "type": "library",
+        "name": "urllib3",
+        "version": "<2.0.0",
+        "purl": "pkg:pypi/urllib3@2.0.0",
+        "bom-ref": "pypi/urllib3@<2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "deps",
+        "version": "= {",
+        "purl": "pkg:pypi/deps@{",
+        "bom-ref": "pypi/deps@= {"
+      },
+      {
+        "type": "library",
+        "name": "transformers",
+        "version": "=transformers.cli.transformers:main",
+        "purl": "pkg:pypi/transformers@transformers.cli.transformers:main",
+        "bom-ref": "pypi/transformers@=transformers.cli.transformers:main"
+      }
+    ]
+  },
+  "elapsed_seconds": 565.08
+}
